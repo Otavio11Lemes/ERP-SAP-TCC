@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  fi:
+    build:
+      context: ./CodigoFonte/fi
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./CodigoFonte/fi:/app/fi
